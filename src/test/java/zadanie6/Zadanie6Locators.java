@@ -7,7 +7,7 @@ import org.openqa.selenium.support.How;
 /**
  * Created by student08 on 15.12.15.
  */
-public class ZadanieHomePage {
+public class Zadanie6Locators {
     @FindBy(how = How.XPATH, using = ".//*[@id='LoginForm__username']")
     public WebElement login;
     @FindBy(how = How.XPATH, using = ".//*[@id='LoginForm__password']")

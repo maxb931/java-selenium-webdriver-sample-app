@@ -6,12 +6,12 @@ import org.openqa.selenium.support.PageFactory;
 /**
  * Created by student08 on 15.12.15.
  */
-public class ZadanieHome {
-    private ZadanieHomePage zadanieHomePage;
+public class Zadanie6Page {
+    private Zadanie6Locators zadanieHomePage;
 
-    public ZadanieHome(WebDriver driver) {
+    public Zadanie6Page(WebDriver driver) {
 
-        zadanieHomePage = new ZadanieHomePage();
+        zadanieHomePage = new Zadanie6Locators();
         PageFactory.initElements(driver,zadanieHomePage);
     }
 
